@@ -13,5 +13,3 @@ export const useStore = () => {
     setState: (newState: number) => kStore.setState(newState),
   };
 };
-
-export type useStore = typeof useStore;
